@@ -1,6 +1,6 @@
 # Graph pipeline kit
 
-`Graph pipeline kit is a small Node.js CLI that runs a basic pipeline for The Graph subgraph projects. It checks whether the current directory looks like a subgraph project, runs `graph build`, optionally runs tests, reads a lightweight YAML config when present, and always prints a predictable JSON result that is easy to consume in local scripts or CI.
+Graph pipeline kit is a small Node.js CLI that runs a basic pipeline for The Graph subgraph projects. It checks whether the current directory looks like a subgraph project, runs `graph build`, optionally runs tests, reads a lightweight YAML config when present, and always prints a predictable JSON result that is easy to consume in local scripts or CI.
 
 ## Requirements
 
