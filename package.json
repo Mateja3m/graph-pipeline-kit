@@ -1,0 +1,42 @@
+{
+  "name": "@idoa/graph-pipeline",
+  "version": "0.1.0",
+  "description": "A minimal CLI for running Graph subgraph build and test pipelines.",
+  "private": false,
+  "type": "module",
+  "bin": {
+    "graph-pipeline": "./bin/graph-pipeline.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "graph",
+    "subgraph",
+    "cli",
+    "pipeline"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "execa": "^9.6.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
