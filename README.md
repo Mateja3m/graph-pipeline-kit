@@ -48,6 +48,10 @@ Behavior:
 - If the build command fails, output still returns JSON.
 - If no `test` script exists, tests are marked as `skipped`.
 
+Security note:
+
+- Run this tool only in subgraph projects you trust, because it executes local build and test commands.
+
 ## Config
 
 Create `graph-pipeline.yaml` to control which steps run:
