@@ -79,12 +79,3 @@ When no subgraph project is detected:
   "tests": "skipped"
 }
 ```
-
-## Publish Checklist
-
-```bash
-npm install
-npm run build
-npm pack --dry-run
-npm publish --access public
-```
